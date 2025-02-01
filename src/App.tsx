@@ -1,16 +1,17 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ComplaintBox from './components/ComplaintBox';
 import About from './components/About';
-import Services from './components/Services';
+// import Services from './components/Services';
 import Statistics from './components/Statistics';
 import Resources from './components/Resources';
 import Footer from './components/Footer';
-import DashboardContent from './components/DashboardContent';
-import CourseSection from './components/CourseSection';
+// import DashboardContent from './components/DashboardContent';
+// import CourseSection from './components/CourseSection';
 import Login from './components/Login';
 import Register from './components/Register';
+import { Toaster } from 'sonner';
 import Chatbot from './components/Chatbot';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <About />
         <ComplaintBox />
         <Statistics />
+        <Toaster theme="light" position="top-right" />
         <Resources />
         <Footer />
         <Chatbot/>
