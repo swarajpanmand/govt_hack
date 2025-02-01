@@ -39,9 +39,9 @@ const Header = () => {
           ))}
         </nav>
 
-        <button className="group relative flex items-center space-x-2 px-6 py-2.5 bg-red-500/80 backdrop-blur-sm text-white rounded-lg transition-all duration-300 hover:bg-red-600/90 hover:scale-105 shadow-lg hover:shadow-red-500/20">
+        <button className="group relative flex items-center space-x-2 px-6 py-2.5 bg-red-500/80 backdrop-blur-sm text-white rounded-lg transition-all duration-300 hover:bg-red-600/90 hover:scale-105 shadow-lg hover:shadow-red-500/20" >
           <AlertTriangle className="w-5 h-5 group-hover:animate-pulse" />
-          <span onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Report Incident</span>
+          <span onClick={() => { window.location.href = 'https://cybercrime.gov.in/Webform/Accept.aspx'; }}>Report Incident</span>
         </button>
       </div>
     </header>
