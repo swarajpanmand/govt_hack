@@ -6,17 +6,18 @@ import About from './components/About';
 import Services from './components/Services';
 import Statistics from './components/Statistics';
 import Resources from './components/Resources';
+import {Toaster} from 'sonner';
 import Footer from './components/Footer';
 import DashboardContent from './components/DashboardContent';
 import CourseSection from './components/CourseSection';
 // import Login from './components/Login';
 // import Register from './components/Register';
 import Chatbot from './components/Chatbot';
-import {Toaster} from 'sonner'
+
 
 function App() {
-  const [showLogin, setShowLogin] = useState(true);
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  // const [showLogin, setShowLogin] = useState(true);
+  // const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   // if (isAuthenticated) {
   //   return (
