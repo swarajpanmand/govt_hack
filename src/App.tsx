@@ -20,7 +20,6 @@ function App() {
 
   // if (isAuthenticated) {
   //   return (
-  //     <div className="min-h-screen bg-black">
   //       <Header />
   //       <Hero />
   //       <About />
