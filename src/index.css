@@ -34,3 +34,33 @@
   letter-spacing: 0.15em;
   animation: typewriter 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes glitch {
+  0% { text-shadow: 2px 2px #67e8f9, -2px -2px #f472b6; }
+  25% { text-shadow: -2px 2px #67e8f9, 2px -2px #f472b6; }
+  50% { text-shadow: 2px -2px #67e8f9, -2px 2px #f472b6; }
+  75% { text-shadow: -2px -2px #67e8f9, 2px 2px #f472b6; }
+  100% { text-shadow: 2px 2px #67e8f9, -2px -2px #f472b6; }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.text-glow {
+  animation: glitch 3s infinite;
+}
+
+.float {
+  animation: float 6s ease-in-out infinite;
+}
