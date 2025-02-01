@@ -31,20 +31,20 @@ const indiaData = {
     {
       label: 'Financial Fraud',
       data: [52000, 78000, 118000, 145000, 178000],
-      borderColor: 'rgb(74, 222, 128)',
-      backgroundColor: 'rgba(74, 222, 128, 0.5)',
+      borderColor: 'rgb(239, 68, 68)',
+      backgroundColor: 'rgba(239, 68, 68, 0.5)',
     },
     {
       label: 'Identity Theft',
       data: [32000, 45000, 68000, 89000, 112000],
-      borderColor: 'rgb(34, 197, 94)',
-      backgroundColor: 'rgba(34, 197, 94, 0.5)',
+      borderColor: 'rgb(59, 130, 246)',
+      backgroundColor: 'rgba(59, 130, 246, 0.5)',
     },
     {
       label: 'Cyberbullying',
       data: [28000, 42000, 58000, 72000, 95000],
-      borderColor: 'rgb(21, 128, 61)',
-      backgroundColor: 'rgba(21, 128, 61, 0.5)',
+      borderColor: 'rgb(168, 85, 247)',
+      backgroundColor: 'rgba(168, 85, 247, 0.5)',
     },
   ],
 };
@@ -55,11 +55,11 @@ const globalData = {
     label: 'Global Cybercrime Losses (Billion USD)',
     data: [3500, 4200, 6000, 8000, 10500],
     backgroundColor: [
-      'rgba(74, 222, 128, 0.6)',
+      'rgba(239, 68, 68, 0.6)',
+      'rgba(59, 130, 246, 0.6)',
+      'rgba(168, 85, 247, 0.6)',
+      'rgba(234, 179, 8, 0.6)',
       'rgba(34, 197, 94, 0.6)',
-      'rgba(21, 128, 61, 0.6)',
-      'rgba(22, 163, 74, 0.6)',
-      'rgba(16, 185, 129, 0.6)',
     ],
   }],
 };
@@ -68,11 +68,11 @@ const options = {
   responsive: true,
   plugins: {
     legend: {
-      position: 'top' as const,
+      position: 'top',
       labels: {
-        color: '#4ade80',
+        color: '#000000',
         font: {
-          family: "'Courier New', monospace",
+          weight: 'bold'
         }
       }
     },
@@ -81,13 +81,10 @@ const options = {
     y: {
       beginAtZero: true,
       grid: {
-        color: 'rgba(74, 222, 128, 0.1)',
+        color: 'rgba(0, 0, 0, 0.1)',
       },
       ticks: {
-        color: '#4ade80',
-        font: {
-          family: "'Courier New', monospace",
-        }
+        color: '#000000',
       }
     },
     x: {
@@ -95,10 +92,7 @@ const options = {
         display: false,
       },
       ticks: {
-        color: '#4ade80',
-        font: {
-          family: "'Courier New', monospace",
-        }
+        color: '#000000',
       }
     },
   },
@@ -106,9 +100,9 @@ const options = {
 
 const CrimeStatistics = () => {
   return (
-    <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-6">
-      <div className="bg-black border border-green-400/30 rounded-lg p-6">
-        <h3 className="text-lg font-medium text-green-400 mb-4">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="bg-white shadow-lg border border-gray-200 rounded-xl p-6">
+        <h3 className="text-lg font-medium text-black mb-4">
           Cybercrime Trends in India
         </h3>
         <div className="h-[300px]">
@@ -116,8 +110,8 @@ const CrimeStatistics = () => {
         </div>
       </div>
       
-      <div className="bg-black border border-green-400/30 rounded-lg p-6">
-        <h3 className="text-lg font-medium text-green-400 mb-4">
+      <div className="bg-white shadow-lg border border-gray-200 rounded-xl p-6">
+        <h3 className="text-lg font-medium text-black mb-4">
           Global Cybercrime Impact
         </h3>
         <div className="h-[300px]">

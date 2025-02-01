@@ -14,11 +14,15 @@ function App() {
     <div className="min-h-screen bg-black">
       <Header />
       <Hero />
-      <DashboardContent/>
       <ComplaintBox />
       <About />
       <Services />
       <Statistics />
+      {/* <div className="w-15"> */}
+        <DashboardContent/>
+      {/* </div> */}
+      
+
       <Resources />
       <Footer />
 

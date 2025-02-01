@@ -6,7 +6,7 @@ const ComplaintBox = () => {
     <section className="py-16 px-8 bg-black">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Women/Children Related Crime */}
-        <div className="bg-gradient-to-br from-red-400 to-pink-500 rounded-2xl p-6 text-center transform transition-all hover:scale-105">
+        <div className="bg-gradient-to-br from-violet-500 to-violet-400 rounded-2xl p-6 text-center transform transition-all hover:scale-105">
           <div className="h-48 mb-4 overflow-hidden rounded-xl">
             <img 
               src="https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&q=80" 
@@ -26,7 +26,7 @@ const ComplaintBox = () => {
         </div>
 
         {/* Financial Fraud */}
-        <div className="bg-gradient-to-br from-blue-400 to-indigo-500 rounded-2xl p-6 text-center transform transition-all hover:scale-105">
+        <div className="bg-gradient-to-br from-violet-400 to-violet-300 rounded-2xl p-6 text-center transform transition-all hover:scale-105">
           <div className="h-48 mb-4 overflow-hidden rounded-xl">
             <img 
               src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&q=80" 
@@ -41,7 +41,7 @@ const ComplaintBox = () => {
         </div>
 
         {/* Other Cyber Crime */}
-        <div className="bg-gradient-to-br from-purple-400 to-violet-500 rounded-2xl p-6 text-center transform transition-all hover:scale-105">
+        <div className="bg-gradient-to-br from-violet-300 to-violet-200 rounded-2xl p-6 text-center transform transition-all hover:scale-105">
           <div className="h-48 mb-4 overflow-hidden rounded-xl">
             <img 
               src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80" 
