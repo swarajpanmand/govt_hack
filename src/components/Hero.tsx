@@ -22,9 +22,9 @@ const Hero = () => {
           can't wait. Our advanced cybersecurity solutions provide real-time 
           protection against emerging threats.
         </p>
-        <button className="group relative px-8 py-4 text-xl font-mono text-white bg-transparent border-2 border-green-400 rounded-lg overflow-hidden transition-all duration-300 hover:text-black">
+        <button className="group relative px-8 py-4 text-xl font-mono text-white bg-transparent border-2 border-red-400 rounded-lg overflow-hidden transition-all duration-300 hover:text-black">
           <span className="relative z-10">Report Cybercrime Now</span>
-          <div className="absolute inset-0 bg-green-400 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
+          <div className="absolute inset-0 bg-red-400 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
         </button>
       </div>
     </section>

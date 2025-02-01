@@ -15,8 +15,8 @@ function App() {
     <div className="min-h-screen bg-black">
       <Header />
       <Hero />
-      <ComplaintBox />
       <About />
+      <ComplaintBox />
       <Services />
       <Statistics />
       {/* <div className="w-15"> */}
