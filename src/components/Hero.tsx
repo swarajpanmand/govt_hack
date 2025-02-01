@@ -7,7 +7,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{ 
-          backgroundImage: "url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXJjeDZkNjY0Y3ZhMGNlM2hucGdicHhwM2tzbHk3dDczdndsOXpudSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WoD6JZnwap6s8/giphy.gif')"
+          backgroundImage: "url('https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif?cid=790b7611mhw7gttgft7t9do3d57fwrnvr4as8wcb8yonnhi6&ep=v1_gifs_search&rid=giphy.gif&ct=g')"
         }}
       />
       <div className="absolute inset-0 bg-black/50" />
