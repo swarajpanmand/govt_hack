@@ -16,8 +16,8 @@ const Statistics = () => {
 
   return (
     <section id="statistics" className="py-16 px-8 bg-neutral-900 text-center">
-      <h2 className="text-4xl mb-8">Statistics</h2>
-      <DashboardContent/>
+        <h2 className="text-3xl font-bold mb-4 text-white">Statistics</h2>
+        <DashboardContent/>
 
     </section>
   );
