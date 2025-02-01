@@ -9,6 +9,7 @@ import Resources from './components/Resources';
 import Footer from './components/Footer';
 import DashboardContent from './components/DashboardContent';
 import CourseSection from './components/CourseSection';
+import Chatbot from './components/Chatbot';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
       
 
       <Footer />
-
+      <Chatbot />
     </div>
   );
 }
