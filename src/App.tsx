@@ -8,6 +8,7 @@ import Statistics from './components/Statistics';
 import Resources from './components/Resources';
 import Footer from './components/Footer';
 import DashboardContent from './components/DashboardContent';
+import CourseSection from './components/CourseSection';
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
       {/* </div> */}
       
 
-      <Resources />
+      {/* <Resources /> */}
+      <CourseSection/>
+
       <Footer />
 
     </div>
