@@ -34,7 +34,7 @@ const Chatbot: React.FC = () => {
                     position: "fixed",
                     bottom: "20px",
                     left: "20px",
-                    backgroundColor: "#ddd",
+                    backgroundColor: isOpen ? "#ddd" : "#007bff", // Blue when closed, grey when open
                     color: "#000",
                     border: "none",
                     padding: "12px",
@@ -76,11 +76,12 @@ const Chatbot: React.FC = () => {
                         {messages.map((msg, index) => (
                             <div key={index} style={{
                                 alignSelf: msg.sender === "user" ? "flex-end" : "flex-start",
-                                backgroundColor: msg.sender === "user" ? "#dcdcdc" : "#e0e0e0",
+                                backgroundColor: msg.sender === "user" ? "#e6e6e6" : "#d9d9d9",
                                 padding: "8px 12px",
                                 borderRadius: "8px",
                                 maxWidth: "80%",
-                                wordWrap: "break-word"
+                                wordWrap: "break-word",
+                                color: "#000" // Ensuring text is black
                             }}>
                                 <strong>{msg.sender === "user" ? "You" : "Bot"}:</strong> {msg.text}
                             </div>
@@ -99,7 +100,8 @@ const Chatbot: React.FC = () => {
                                 padding: "8px",
                                 border: "1px solid #ccc",
                                 borderRadius: "6px",
-                                fontSize: "14px"
+                                fontSize: "14px",
+                                color: "#000" // Text inside input black
                             }}
                         />
                         <button 
@@ -110,7 +112,8 @@ const Chatbot: React.FC = () => {
                                 border: "none",
                                 borderRadius: "6px",
                                 cursor: "pointer",
-                                fontSize: "14px"
+                                fontSize: "14px",
+                                color: "#000" // Button text black
                             }}
                         >
                             Send
