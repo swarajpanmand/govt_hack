@@ -17,15 +17,14 @@ function App() {
       <Hero />
       <About />
       <ComplaintBox />
-      <Services />
+      {/* <Services /> */}
       <Statistics />
       {/* <div className="w-15"> */}
-        <DashboardContent/>
       {/* </div> */}
       
 
-      {/* <Resources /> */}
-      <CourseSection/>
+      <Resources />
+      
 
       <Footer />
 
